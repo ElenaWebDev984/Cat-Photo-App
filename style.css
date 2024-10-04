@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: serif;
+    font-size: medium;
+    line-height: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px;
+}
+
+h2, h3 {
+    margin: 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+img {
+    margin: 20px;
+}
