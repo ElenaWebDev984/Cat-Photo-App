@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CatPhotoApp</title>
 </head>
 <body>
     <main>
@@ -46,7 +46,7 @@
                 <fieldset>
                     <legend>Is your cat an indoor or outdoor cat?</legend>
                     <label>
-                        <input type="radio" id="indoor" name="indoor-outdoor" value="indoor">
+                        <input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked>
                         Indoor
                     </label>
                     <label>
@@ -57,8 +57,16 @@
                 <fieldset>
                     <legend>What's your cat's personality?</legend>
                     <label for="loving">
-                    <input type="checkbox" id="loving" name="personality" value="loving">
-                    Loving
+                        <input type="checkbox" id="loving" name="personality" value="loving">
+                        Loving
+                    </label>
+                    <label for="lazy">
+                        <input type="checkbox" id="lazy" name="personality" value="lazy">
+                        Lazy
+                    </label>
+                    <label for="energetic">
+                        <input type="checkbox" id="energetic" name="personality" value="energetic">
+                        Energetic
                     </label>
                 </fieldset>
                 <input type="text" name="catphotourl"  required>
@@ -66,5 +74,8 @@
             </form>
         </section>
     </main>
+    <footer>
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
 </body>
 </html>
